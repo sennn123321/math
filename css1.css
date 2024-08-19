@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #189ab4;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0 0 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+h3 {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 400px;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.hasil {
+  margin: 10px 0 0 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  h3 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: 50px 500px 0 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hasil {
+    text-align: center;
+  }
+}
